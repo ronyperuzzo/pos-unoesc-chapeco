@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Aula HTML5</title>
+
+	<script src="cnpj.js" ></script>
+
+	<script type="text/javascript">
+		function vCNPJ(input){
+			//input.setCustomValidity(validaCPF(i.value)? '' : 'CPF Invalido');
+			console.log(input);
+			var msg = "";
+
+			if(!validaCNPJ(input.value)){
+				msg = "CNPJ Invalido";
+			}
+			input.setCustomValidity(msg);
+		}	
+
+	</script>
+</head>
+<style type="text/css">
+	.menu li{
+		display: inline-block;
+	}
+
+</style>
+<body>
+	<form>
+		<caption>CNPJ</caption>
+		<input name="cpf" id="cpf" required oninput="vCNPJ(this)"> 
+
+		<input type="submit" value="Enviar"> 
+
+	</form>
+</body>
+</html>
