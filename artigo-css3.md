@@ -128,7 +128,7 @@ A sintaxe geral para aplicar uma imagem na borda pode ser vista a seguir.
 </br>
 [http://www.scriptcase.com.br/blog/border-image-no-css3/](http://www.scriptcase.com.br/blog/border-image-no-css3/)
 
-
+</br></br>
 
 ##### Funcionalidade: Gradient
 
@@ -183,12 +183,10 @@ div {
 ##### Referências:
 [http://www.maujor.com/tutorial/css3-gradientes-lineares.php](http://www.maujor.com/tutorial/css3-gradientes-lineares.php)
 </br>
-[http://tableless.com.br/como-usar-gradient-no-css-de-forma-consciente/](http://tableless.com.br/como-usar-gradient-no-css-de-forma-consciente/)
+[http://tableless.com.br/como-usar-gradient-no-css-de-forma-consciente/](http://tableless.com.br/como-usar-gradient-no-css-de-forma-consciente/) </br>
 [http://www.w3c.br/pub/Cursos/CursoCSS3/css-web.pdf](http://www.w3c.br/pub/Cursos/CursoCSS3/css-web.pdf)
 
 </br></br>
-
-
 
 ##### Funcionalidade: Multiple Backgrounds
 
@@ -221,13 +219,13 @@ Veja que basta definirmos diversas vezes a propriedade URL com as imagens que es
 ```html
 <html lang="pt-br">
 <head>
-	<title></title>
-	<meta charset="utf-8">
-	</head>
+   <title>Background Multiplos</title>
+   <meta charset="utf-8">
+</head>
 <body>
 
 <div>
-	Um div.
+   Um div.
 </div>
 
 </body>
@@ -235,13 +233,11 @@ Veja que basta definirmos diversas vezes a propriedade URL com as imagens que es
 ```
 ```css
 div {
-		width:500px;
-		height:500px;
-		border:1px solid black;
-
-		background-color:red;
-		
-		background: 
+	width:500px;
+	height:500px;
+	border:1px solid black;
+	background-color:red;
+	background: 
 		url(gradiente-baixo.png) bottom right repeat-X,
 		url(gradiente-esquerda.png) top left repeat-Y,
 		url(gradiente-top.png) top right repeat-X,
@@ -249,9 +245,11 @@ div {
 	}
 ```
 ##### Referências:
-[http://tableless.com.br/multiplos-backgrounds-com-css/](http://tableless.com.br/multiplos-backgrounds-com-css/)
+[http://tableless.com.br/multiplos-backgrounds-com-css/](http://tableless.com.br/multiplos-backgrounds-com-css/) </br>
 [http://fmbip.com/litmus/] (http://fmbip.com/litmus/)
 
+
+</br>
 
 
 
