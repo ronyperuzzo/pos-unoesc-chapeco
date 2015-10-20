@@ -38,7 +38,7 @@ seletor {
 }
 
 ```
-### Referencia:
+##### Referencia:
 [http://www.maujor.com/tutorial/interativo-css3/inc/borderradius.php](http://www.maujor.com/tutorial/interativo-css3/inc/borderradius.php)
 
 ##### Funcionalidade: Box shadow
@@ -75,10 +75,7 @@ A sintaxe geral para aplicar as sombras é mostrada a seguir.
 }
   
 ```
-
-
-
-### Referencia:
+##### Referencia:
 [http://www.maujor.com/tutorial/interativo-css3/inc/boxshadow.php](http://www.maujor.com/tutorial/interativo-css3/inc/boxshadow.php)
 [http://www.linhadecodigo.com.br/artigo/3633/entendendo-o-atributo-box-shadow-nas-css3.aspx#ixzz3p3qtCVP2](http://www.linhadecodigo.com.br/artigo/3633/entendendo-o-atributo-box-shadow-nas-css3.aspx#ixzz3p3qtCVP2)
 
@@ -109,8 +106,3 @@ A sintaxe geral para aplicar as sombras é mostrada a seguir.
 
 
 
-
-
-
-
-Read more: http://www.linhadecodigo.com.br/artigo/3633/entendendo-o-atributo-box-shadow-nas-css3.aspx#ixzz3p3odVQRx
