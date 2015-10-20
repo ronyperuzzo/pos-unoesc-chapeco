@@ -246,6 +246,131 @@ div {
 ```
 ##### Referências:
 [http://tableless.com.br/multiplos-backgrounds-com-css/](http://tableless.com.br/multiplos-backgrounds-com-css/) </br>
+
+</br></br>
+
+##### Funcionalidade: Pointer Events
+
+##### O que é?
+A propriedade CSS pointer-events permite autores controlarem sob qualquer circustancia(se houver) um elemento gráfico particular podendo ser o alvo do evento do mouse. Quando essa propriedade não é especificada, as mesmas características do valor  visiblePainted é aplicada no conteúdo SVG.
+Além de indicar que este elemento não é o alvo do evento do mouse, o valor none instrui o evento do mouse a "passar" o elemento e tudo que está "abaixo" deste elemento.
+
+##### Onde usar:
+Em elementos onde você deseja controlar as funções ou eventos do mouse.
+
+##### Como usar:
+A sintax formal: 
+	auto | none | visiblePainted | visibleFill | visibleStroke | visible | painted | fill | stroke | all | inherit
+```css
+pointer-events: auto;
+pointer-events: none;
+pointer-events: visiblePainted;
+pointer-events: visibleFill;
+pointer-events: visibleStroke;
+pointer-events: visible;
+pointer-events: painted;
+pointer-events: fill;
+pointer-events: stroke;
+pointer-events: all;
+pointer-events: inherit;
+```
+##### Exemplo de uso
+
+```html
+<html lang="pt-br">
+<head>
+   <title>Background Multiplos</title>
+   <meta charset="utf-8">
+</head>
+<body>
+ 	<ul>
+  	<li><a href="https://developer.mozilla.org">MDN</a></li>
+  	<li><a href="http://example.com">example.com</a></li>
+	</ul>
+</body>
+</html>
+```
+```css
+a[href="http://example.com"] {
+  pointer-events: none;
+}
+```
+
+##### Referências:
+[https://developer.mozilla.org/pt-BR/docs/Web/CSS/pointer-events/](https://developer.mozilla.org/pt-BR/docs/Web/CSS/pointer-events/) </br>
+
+##### Funcionalidade: Animations
+
+##### O que é?
+CSS Animation manipula características dos elementos, transformando-os modificando por meio de transições os valores das propriedades definidas dos elementos.
+
+##### Onde usar:
+Em princípio pode ser utilizado em qualquer elemento css.
+
+##### Como usar:
+CSS Animation permite que modifiquemos propriedades do CSS e tenhamos o resultado ali, na hora.
+Para isso, usaremos uma propriedade chamada transition. Essa propriedade é divida em 3 propriedades: transition-property que é a propriedade que deverá ser animada, transition-duration é quanto tempo a transição irá durar, e transition-timing-function é o tipo de transição.
+
+```
+##### Exemplo de uso	
+
+```html
+<html lang="pt-br">
+<head>
+   <title>CSS Animation</title>
+   <meta charset="utf-8">
+</head>
+<body>
+	<div class="div1">
+		<p>Testando css animations!</p>
+	</div>
+</body>
+</html>
+```
+```css
+	.div1 {
+		border: 10px solid black;
+		width: 250px;
+		height:250px;
+		background:lightgray;
+		-webkit-transform: rotate(0deg);
+	  -webkit-transition: background 1s linear, -webkit-transform 0.5s linear;
+	}
+		
+	.div1:hover {
+		background: red;
+		width: 250px;
+		-webkit-transform: rotate(-360deg);
+	}
+		
+```
+##### Referências:
+[http://tableless.com.br/introducao-ao-css-animation/](http://tableless.com.br/introducao-ao-css-animation/) </br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 [http://fmbip.com/litmus/] (http://fmbip.com/litmus/)
 
 
