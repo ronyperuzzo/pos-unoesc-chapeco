@@ -41,4 +41,76 @@ seletor {
 ### Referencia:
 [http://www.maujor.com/tutorial/interativo-css3/inc/borderradius.php](http://www.maujor.com/tutorial/interativo-css3/inc/borderradius.php)
 
-<repetir para as demais funcionalidades>
+##### Funcionalidade: Box shadow
+##### O que é?
+A propriedade CSS3 border-shadow destina-se a definir sombras em boxes ou qualquer tipo de elemento em sua página HTML usando apenas alguns códigos CSS.
+
+##### Onde usar:
+Em qualquer elemento que possui o atributo shadow.
+##### Como usar:
+```css
+seletor { box-shadow: inset offsetX offsetY raioBlur spread cor; } 
+```
+
+##### Exemplo de uso
+A sintaxe geral para aplicar as sombras é mostrada a seguir.
+
+```html
+<html>
+<head>
+  <title>Box-shadow em CSS3</title>
+</head>
+<body>
+  <div id="sombra">
+    <p>Esta é uma camada com sombra criada com CSS 3.</p>
+  </div>
+</body>
+</html>
+```
+```css
+#sombra{
+  box-shadow: 5px 5px 0 #333;
+  -webkit-box-shadow: 5px 5px 0 #333;
+  -moz-box-shadow: 5px 5px 0 #333;
+}
+  
+```
+
+
+
+### Referencia:
+[http://www.maujor.com/tutorial/interativo-css3/inc/boxshadow.php](http://www.maujor.com/tutorial/interativo-css3/inc/boxshadow.php)
+[http://www.linhadecodigo.com.br/artigo/3633/entendendo-o-atributo-box-shadow-nas-css3.aspx#ixzz3p3qtCVP2](http://www.linhadecodigo.com.br/artigo/3633/entendendo-o-atributo-box-shadow-nas-css3.aspx#ixzz3p3qtCVP2)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Read more: http://www.linhadecodigo.com.br/artigo/3633/entendendo-o-atributo-box-shadow-nas-css3.aspx#ixzz3p3odVQRx
