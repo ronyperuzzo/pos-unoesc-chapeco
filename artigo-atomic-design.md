@@ -113,8 +113,46 @@ Referências
 
   ORGANISMO: Da mesma maneira que uma molécula é um conjunto de átomos, organismos são um conjunto de moléculas que quando agrupados tornam-se elementos que norteiam a navegação e a leitura do conteúdo nessa interface.
   Normalmente isto vai corresponder a uma seção do site como header, footer, sidebar, etc. Ao contrário das moléculas, os organismos podem ter diversos propósitos funcionando paralelamente. Um header, por exemplo, pode possuir elementos como logotipo, navegação, formulário de login, campo de busca, etc. E cada um deles realiza uma ação específica. 
-  
+  Exemplo: 
+```html
+<html>
+<head>
+  <title>Exemplo de organismo</title>
+</head>
+<body>
+  <form class="molecula-form" actiton="/beers">
+    <article>
+      <div class='organism-salvar-cpf-cnpj'>
+        
+        <div class="molecula-cpf">
+          <label class="atomo-label">CPF:</label>
+          <input type="text" class="atomo-input" name="cpf">
+          <input type=”button” class="atom-button" value="Pesquisar"/>
+        </div>
+          
+        <div class="molecula-cnpj">
+          <label class="atomo-label">CNPJ:</label>
+          <input type="text" class="atomo-input" name="CNPJ">
+          <input type=”button” class="atom-button" value="Pesquisar"/>
+        </div>
+        
+        <input type=”button” class="atom-button" value="Salvar"/>
+        
+      </div>
+    </article>
+  </form>
+</body>
+</html>
+```
+```css
+  .organism-salvar-cpf-cnpj {
+    width: 100%;
+  }
+```
+
   TEMPLATE: Na fase de modelo, nós quebramos nossa analogia química para entrar em uma linguagem que faz mais sentido para a nossa produção final. Templates consistem principalmente de grupos de organismos costurados juntos para formar páginas. É aqui que começamos a ver o projeto tornando as coisas mais concretas. O template é a forma de dar um contexto para todos as etapas anteriores. Agora seu cliente já começa a visualizar como o produto final ira ficar.
+  
+  
 
   PÁGINA: As páginas são instâncias específicas de templates. Aqui, o espaço reservado e indicado no template é substituído por um conteúdo representativo real, para dar a descrição exata do que o usuário irá ver.
   Se os átomos são os menores elementos do sistema a página por sua vez é o mais alto nível do produto final, é ondet tipicamente a maioria das pessoas envolvidas no processo, passar a maior parte do seu tempo pois é a parte mais tangível do sistema.
@@ -137,6 +175,7 @@ http://pt.slideshare.net/suissapg/atomic-design-28724858 </br>
 http://nomadev.com.br/atomic-design-por-que-usar/ </br>
 https://www.phase2technology.com/blog/your-frontend-methodology-is-all-of-them-atomic-design-patternlab/ </br>
 http://tableless.com.br/o-que-e-design-atomic/ </br>
+https://github.com/suissa
 
   
   
