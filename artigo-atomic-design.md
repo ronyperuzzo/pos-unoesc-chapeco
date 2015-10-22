@@ -50,7 +50,7 @@ Referências
   
   
 ##### Exemplos em cada etapa (Apresentar um exemplo de cada etapa)
-
+  
   Átomos: 
 ```html
 <html>
@@ -60,7 +60,7 @@ Referências
 <body>
   <label for="nome" class="atomo-label" >Label é um átomo</label>
   <input type="text" class="atomo-input" name="email" value="input tb é um átomo">
-  <input type=”button” class="atom-button" value="Tb é um átomo"/>
+  <input type=”button” class="atomo-button" value="Tb é um átomo"/>
 </body>
 </html>
 ```
@@ -95,12 +95,56 @@ Referências
   }
 ```
   
+  MOLÉCULA:
+```html
+<html>
+<head>
+  <title>Exemplo de molécula</title>
+</head>
+<body>
+  <form class="molecula-form" actiton="/beers">
+   
+    <div class="molecula-cpf">
+      <label class="atomo-label">CPF:</label>
+      <input type="text" class="atomo-input" name="cpf">
+      <input type=”button” class="atom-button" value="Pesquisar"/>
+    </div>
+    
+    <div class="molecula-cnpj">
+      <label class="atomo-label">CNPJ:</label>
+      <input type="text" class="atomo-input" name="CNPJ">
+      <input type=”button” class="atom-button" value="Pesquisar"/>
+    </div>
 
+  </form>
+</body>
+</html>
+```
+```css
+.molecula-cpf {
+  width: 100px;
+  margin: 0 auto;
+}
 
-
-
+.molecula-cnpj {
+  width: 150px;
+  margin: 0 auto;
+}
+```
   
-  
+
+
+
+
+
+
+http://www.linhadecodigo.com.br/artigo/3557/customizando-formularios-com-css.aspx
+  http://webnerd.com.br/dev/atomic-design-uma-nova-visao-sobre-o-design-na-web/
+  http://www.felipefialho.com/blog/2014/falando-em-organizacao-css/
+  http://pt.slideshare.net/suissapg/atomic-design-28724858
+  http://nomadev.com.br/atomic-design-por-que-usar/
+  https://www.phase2technology.com/blog/your-frontend-methodology-is-all-of-them-atomic-design-patternlab/
+  http://tableless.com.br/o-que-e-design-atomic/
   
   
   
