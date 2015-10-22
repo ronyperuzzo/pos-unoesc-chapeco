@@ -154,7 +154,7 @@
   Pensando na equipe de planejamento e construção a metodologia trás vanagens como padronização, modularização, organização e definições claras de códigos fontes e material design. Com isso o resposável pelo projeto pode revesar/alocar membros da equipe sem problemas de dependência e centralização do conhecimento.
   Já os membros do time de design e do time do cliente conseguem visualizar melhor o sistema, sem necessariamente precisar ver todos os layouts salvos em .jpg em frente a eles.
   
-##### Onde usá-lo (10%)
+##### Onde usá-lo?
   A aplicação da metodologia Atomic Design pode ser aplicada em qualquer projeto, seja ele web ou não, pois o a idéia de organizar seus código pensando no re-uso dos componentes e funcionalidades e importante em qualquer circunstância, desde pequenas aplicações ou sites até grandes e elaborados projetos, que neste caso fica extremamente importante aplicar a metodologia, visando claro, facilitar a etapa de projeto e construção mas também pensando no futuro, onde o trabalho feito já não é mais um projeto e sim uma aplicação concreta e que já possa receber possiveis manutenções para se adaptar as mudanças do mercado.
   
   
