@@ -1,16 +1,3 @@
-Tarefa do artigo de Atomic Design
-
-O artigo de revisão de Atomic Design deverá ser constituído das seguintes partes:
-
-Resumo
-1) O que é ?
-2) Como funciona
-3) Por que usá-lo, quais seus benefícios
-4) Onde usá-lo (10%)
-5) Exemplos em cada etapa (Apresentar um exemplo de cada etapa)
-Referências
-
-
 #### Unoesc Chapecó
 #### Pós-graduação em Desenvolvimento Web, Cloud e dispositivos móveis - WebMob
 #### Disciplina: HTML5+CSS3
@@ -150,13 +137,17 @@ Referências
   }
 ```
 
-  TEMPLATE: Na fase de modelo, nós quebramos nossa analogia química para entrar em uma linguagem que faz mais sentido para a nossa produção final. Templates consistem principalmente de grupos de organismos costurados juntos para formar páginas. É aqui que começamos a ver o projeto tornando as coisas mais concretas. O template é a forma de dar um contexto para todos as etapas anteriores. Agora seu cliente já começa a visualizar como o produto final ira ficar.
+  TEMPLATE: Na fase de modelo, nós quebramos nossa analogia química para entrar em uma linguagem que faz mais sentido para a nossa produção final. Templates consistem principalmente de grupos de organismos costurados juntos para formar páginas. É aqui que começamos a ver o projeto tornando as coisas mais concretas. O template é a forma de dar um contexto para todos as etapas anteriores. Agora seu cliente já começa a visualizar como o produto final ira ficar. </br> 
+  Exemplo:</br>
+   ![Novo Repositório no Github](https://github.com/bradfrost/atomic-design/blob/master/images/content/template.png)
   
+  
+  PÁGINA: As páginas são instâncias específicas de templates. Aqui, o espaço reservado e indicado no template é substituído por um conteúdo representativo real, para dar a descrição exata do que o usuário irá ver.
+  Se os átomos são os menores elementos do sistema a página por sua vez é o mais alto nível do produto final, é ondet tipicamente a maioria das pessoas envolvidas no processo, passar a maior parte do seu tempo pois é a parte mais tangível do sistema. </br>
+  Exemplo: </br>
+  ![Novo Repositório no Github](https://github.com/bradfrost/atomic-design/blob/master/images/content/page.png)
   
 
-  PÁGINA: As páginas são instâncias específicas de templates. Aqui, o espaço reservado e indicado no template é substituído por um conteúdo representativo real, para dar a descrição exata do que o usuário irá ver.
-  Se os átomos são os menores elementos do sistema a página por sua vez é o mais alto nível do produto final, é ondet tipicamente a maioria das pessoas envolvidas no processo, passar a maior parte do seu tempo pois é a parte mais tangível do sistema.
-  
 ##### Por que usá-lo, quais seus benefícios?
 
   Atomic Design pode nos fornecer uma metodologia clara para a elaboração de sistemas, onde clientes e membros da equipe de criação são capazes entender melhor e mais rapidamente o contexto da aplicação planejada. Com a metodologia podemos ir do abstrato (átomos) ao concreto (páginas) dando coerência e escalabilidade enquanto mostra simultaneamente as os resultados em seu contexto final. 
@@ -164,6 +155,7 @@ Referências
   Já os membros do time de design e do time do cliente conseguem visualizar melhor o sistema, sem necessariamente precisar ver todos os layouts salvos em .jpg em frente a eles.
   
 ##### Onde usá-lo (10%)
+  A aplicação da metodologia Atomic Design pode ser aplicada em qualquer projeto, seja ele web ou não, pois o a idéia de organizar seus código pensando no re-uso dos componentes e funcionalidades e importante em qualquer circunstância, desde pequenas aplicações ou sites até grandes e elaborados projetos, que neste caso fica extremamente importante aplicar a metodologia, visando claro, facilitar a etapa de projeto e construção mas também pensando no futuro, onde o trabalho feito já não é mais um projeto e sim uma aplicação concreta e que já possa receber possiveis manutenções para se adaptar as mudanças do mercado.
   
   
 ##### Referências
@@ -173,9 +165,11 @@ http://webnerd.com.br/dev/atomic-design-uma-nova-visao-sobre-o-design-na-web/ </
 http://www.felipefialho.com/blog/2014/falando-em-organizacao-css/ </br>
 http://pt.slideshare.net/suissapg/atomic-design-28724858 </br>
 http://nomadev.com.br/atomic-design-por-que-usar/ </br>
+http://nomadev.com.br/atomic-design-com-angularjs/ </br>
 https://www.phase2technology.com/blog/your-frontend-methodology-is-all-of-them-atomic-design-patternlab/ </br>
 http://tableless.com.br/o-que-e-design-atomic/ </br>
 https://github.com/suissa
+https://github.com/bradfrost/atomic-design/
 
   
   
