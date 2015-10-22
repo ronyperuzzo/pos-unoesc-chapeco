@@ -42,23 +42,65 @@ Referências
   
 ##### Por que usá-lo, quais seus benefícios?
 
-  Atomic Design pode nos fornecer uma metodologia clara para a elaboração de sisemas, onde clientes e membros da equipe de criação são capazes entender melhor e mais rapidamente o contexto da aplicação planejada. Com a metodologia podemos ir do abstrato (átomos) ao concreto (páginas) dando coerência e escalabilidade enquanto mostra simultaneamente as os resultados em seu contexto final. 
-  Pensando na equipe de planejamento e construção a metodologia trás vanagens como organização e definições claras de códigos fontes e material design. Com isso o resposável pelo projeto pode revesar/alocar membros da equipe sem problemas de dependência e centralização do conhecimento.
+  Atomic Design pode nos fornecer uma metodologia clara para a elaboração de sistemas, onde clientes e membros da equipe de criação são capazes entender melhor e mais rapidamente o contexto da aplicação planejada. Com a metodologia podemos ir do abstrato (átomos) ao concreto (páginas) dando coerência e escalabilidade enquanto mostra simultaneamente as os resultados em seu contexto final. 
+  Pensando na equipe de planejamento e construção a metodologia trás vanagens como padronização, modularização, organização e definições claras de códigos fontes e material design. Com isso o resposável pelo projeto pode revesar/alocar membros da equipe sem problemas de dependência e centralização do conhecimento.
   Já os membros do time de design e do time do cliente conseguem visualizar melhor o sistema, sem necessariamente precisar ver todos os layouts salvos em .jpg em frente a eles.
   
 ##### Onde usá-lo (10%)
+  
+  
+##### Exemplos em cada etapa (Apresentar um exemplo de cada etapa)
+
+  Átomos: 
+```html
+<html>
+<head>
+  <title>Exemplo de átomos</title>
+</head>
+<body>
+  <label for="nome" class="atomo-label" >Label é um átomo</label>
+  <input type="text" class="atomo-input" name="email" value="input tb é um átomo">
+  <input type=”button” class="atom-button" value="Tb é um átomo"/>
+</body>
+</html>
+```
+
+```css
+.atomo-label {
+    min-width: 120px;
+    display: inline-block;
+    position:absolute;
+    left:19px;
+    margin-right:5px;
+  }
+
+.atomo-input {
+  width: 300px;
+  background-color:#f1ff00;
+  position:absolute;
+  left:95px;
+  top:23px;
+  width:225px;
+}
+
+.atomo-button {
+    width: 300px;
+    display: inline-block;
+    float: left;
+    border-style:dashed;
+    position:absolute;
+    bottom: 0.5em;
+    right:10px;
+    background-color:#f1ff00;
+  }
+```
+  
 
 
 
+
   
   
   
   
   
-  
-  
-  
-  
-  
-  Como toda ferramenta, a utilização fica a seu critério. Design, prototipagem, guia de estilos, wireframes dinâmicos, suite de testes, criação rápida de modelos para apresentação para clientes ou até para o produto final em si, a escolha é sua.
-  Quanto ao aspecto prático o processo pode ser feito criando inicialmente os elementos da interface em um programa gráfico, diretamente em um arquivo de HTML/CSS ou utilizando alguma ferramenta como o Pattern Lab.
