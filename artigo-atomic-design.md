@@ -9,3 +9,56 @@ Resumo
 4) Onde usá-lo (10%)
 5) Exemplos em cada etapa (Apresentar um exemplo de cada etapa)
 Referências
+
+
+#### Unoesc Chapecó
+#### Pós-graduação em Desenvolvimento Web, Cloud e dispositivos móveis - WebMob
+#### Disciplina: HTML5+CSS3
+#### Professor: Jean Carlo Nascimento
+#### Acadêmico(a): Rony Remus Peruzzo
+### Artigo de revisão de Atomic Design
+
+</br></br>
+
+##### O que é?
+
+  O Atomic Design é uma metodologia de desenvolvimento. Ou seja, um conjunto de práticas que auxiliam a criação de um projeto de sistemas de qualquer natureza, com uma coleção de regrinhas para facilitar, agilizar e organizar o trabalho de um designer ou desenvolvedor web.
+  
+##### Como funciona?
+
+  A metodologia é baseada em 5 níveis hierárquicos, átomo, molécula, organismo, template e página. 
+  
+  ÁTOMO: Como o nome já sujere, são os menores elementos disponíveis na construção de um software. Os átomos são elementos isolados que não precisam de um contexto para existir. Pense em coisas soltas como labels, inputs, campos de formulário, botões, títulos, parágrafo, etc. Estes são os blocos básicos utilizados para construir elementos maiores.
+  
+  MOLÉCULA: Na ciência, o conceito de molécula é basicamente agrupamentos de dois ou mais átomos. Esse conceito pode ser usado perfeitamente na metodologia, onde podemos juntar os componentes (átomos) criando uma espécie de molécula com um propósito único. Por exemplo um label um campo de formulário e um botão não são uteis isoladamente, mas juntos podem cumprir uma função específica como realizar uma busca.
+
+  ORGANISMO: Da mesma maneira que uma molécula é um conjunto de átomos, organismos são um conjunto de moléculas que quando agrupados tornam-se elementos que norteiam a navegação e a leitura do conteúdo nessa interface.
+  Normalmente isto vai corresponder a uma seção do site como header, footer, sidebar, etc. Ao contrário das moléculas, os organismos podem ter diversos propósitos funcionando paralelamente. Um header, por exemplo, pode possuir elementos como logotipo, navegação, formulário de login, campo de busca, etc. E cada um deles realiza uma ação específica. 
+  
+  TEMPLATE: Na fase de modelo, nós quebramos nossa analogia química para entrar em uma linguagem que faz mais sentido para a nossa produção final. Templates consistem principalmente de grupos de organismos costurados juntos para formar páginas. É aqui que começamos a ver o projeto tornando as coisas mais concretas. O template é a forma de dar um contexto para todos as etapas anteriores. Agora seu cliente já começa a visualizar como o produto final ira ficar.
+
+  PÁGINA: As páginas são instâncias específicas de templates. Aqui, o espaço reservado e indicado no template é substituído por um conteúdo representativo real, para dar a descrição exata do que o usuário irá ver.
+  Se os átomos são os menores elementos do sistema a página por sua vez é o mais alto nível do produto final, é ondet tipicamente a maioria das pessoas envolvidas no processo, passar a maior parte do seu tempo pois é a parte mais tangível do sistema.
+  
+##### Por que usá-lo, quais seus benefícios?
+
+  Atomic Design pode nos fornecer uma metodologia clara para a elaboração de sisemas, onde clientes e membros da equipe de criação são capazes entender melhor e mais rapidamente o contexto da aplicação planejada. Com a metodologia podemos ir do abstrato (átomos) ao concreto (páginas) dando coerência e escalabilidade enquanto mostra simultaneamente as os resultados em seu contexto final. 
+  Pensando na equipe de planejamento e construção a metodologia trás vanagens como organização e definições claras de códigos fontes e material design. Com isso o resposável pelo projeto pode revesar/alocar membros da equipe sem problemas de dependência e centralização do conhecimento.
+  Já os membros do time de design e do time do cliente conseguem visualizar melhor o sistema, sem necessariamente precisar ver todos os layouts salvos em .jpg em frente a eles.
+  
+##### Onde usá-lo (10%)
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  Como toda ferramenta, a utilização fica a seu critério. Design, prototipagem, guia de estilos, wireframes dinâmicos, suite de testes, criação rápida de modelos para apresentação para clientes ou até para o produto final em si, a escolha é sua.
+  Quanto ao aspecto prático o processo pode ser feito criando inicialmente os elementos da interface em um programa gráfico, diretamente em um arquivo de HTML/CSS ou utilizando alguma ferramenta como o Pattern Lab.
